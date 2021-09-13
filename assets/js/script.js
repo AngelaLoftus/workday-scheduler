@@ -9,7 +9,7 @@ console.log(moment);
 
 document.addEventListener("svBtn");
 
-svBtn.onClick(setIt
+svBtn.onClick.localStorage.setItem("hourblock");
 
 localStorage.getItem("9");
 localStorage.getItem("10");
@@ -43,5 +43,6 @@ if (hourblock > currentTime) {
 
 }
 }
+
 checkTime();
  
