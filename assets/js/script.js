@@ -4,10 +4,22 @@ var currentTime = document.getElementById("#currentDay")
 currentDay.innerhtml=("(moment().format('MMMM Do YYYY, h:mm:ss a'))");
 moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(moment);
+
 //get any saved items from localStorage
 
-//localStorage.getItem("9am")
-//localStorage.getItem("10am");
+document.addEventListener("svBtn");
+
+svBtn.onClick(setIt
+
+localStorage.getItem("9");
+localStorage.getItem("10");
+localStorage.getItem("11");
+localStorage.getItem("12");
+localStorage.getItem("13");
+localStorage.getItem("14");
+localStorage.getItem("15");
+localStorage.getItem("16");
+localStorage.getItem("17");
 
 var hourblock = document.querySelector("hourblock").value;
 
@@ -32,4 +44,4 @@ if (hourblock > currentTime) {
 }
 }
 checkTime();
-
+ 

@@ -17,6 +17,7 @@
 
 # Link to Deployed Application
 
+https://angelaloftus.github.io/workday-scheduler/
 
 # Screenshot 
-![Screenshot](Link to screenshot)
+![Screenshot](https://github.com/AngelaLoftus/workday-scheduler/blob/main/assets/images/screenshot.jpg)
