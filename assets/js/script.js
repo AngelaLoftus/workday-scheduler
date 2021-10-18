@@ -1,9 +1,10 @@
 //display the current time
 
-var currentTime = document.getElementById("#currentDay")
-currentDay.innerhtml=("(moment().format('MMMM Do YYYY, h:mm:ss a'))");
-moment().format('MMMM Do YYYY, h:mm:ss a');
-console.log(moment);
+var currentTime = document.getElementById("currentDay")
+var todayDate = (moment().format('MMMM Do YYYY, h:mm:ss a'))
+currentTime.innerHTML = "Today's date is " + todayDate;
+// moment().format('MMMM Do YYYY, h:mm:ss a');
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 //get any saved items from localStorage
 
